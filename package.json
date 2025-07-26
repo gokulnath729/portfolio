@@ -1,0 +1,50 @@
+{
+  "name": "gokulnath-portfolio",
+  "version": "1.0.0",
+  "description": "Senior Software Engineer Portfolio - React JS, Node JS, Next.js Expert",
+  "keywords": [
+    "senior-software-engineer",
+    "full-stack-developer",
+    "react-js-developer",
+    "node-js-developer",
+    "next-js-developer",
+    "javascript-developer",
+    "web-development",
+    "portfolio",
+    "react",
+    "nextjs",
+    "nodejs",
+    "typescript",
+    "tailwindcss",
+    "framer-motion"
+  ],
+  "author": "Gokulnath R",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "critters": "^0.0.25",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.292.0",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  }
+}
