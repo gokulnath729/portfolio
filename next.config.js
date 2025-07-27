@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
   experimental: {
     appDir: true,
     optimizeCss: true,
@@ -99,7 +101,6 @@ const nextConfig = {
   env: {
     CUSTOM_KEY: process.env.CUSTOM_KEY || "",
   },
-  trailingSlash: false,
 };
 
 module.exports = nextConfig;
